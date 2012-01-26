@@ -21,9 +21,9 @@ Configuration
 ---
 
 Edit mongodb settings in config/mongodb.conf, use rackup for all other
-options. Add your twitter and pusher credetentials to
-config/shotbox.yml.
+options. Add your twitter and pusher credentials to
+config/shoutbox.yml.
 
-Add you pusher application id in public/javascripts/shoutbox.js(line 17).
+Add your pusher application ID# in public/javascripts/shoutbox.js(line 17).
 
         var pusher = new Pusher('your-app-id');
